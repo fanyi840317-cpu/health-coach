@@ -1,0 +1,26 @@
+# R+ Health 处方评审引擎 - 依赖包
+
+# 核心依赖
+mcp>=1.0.0                    # MCP SDK (Model Context Protocol)
+
+# LLM 支持 (根据需要选择)
+openai>=1.0.0                 # OpenAI API (GPT-4)
+anthropic>=0.20.0             # Anthropic API (Claude)
+
+# 数据处理
+pandas>=2.0.0                 # 数据分析
+numpy>=1.24.0                 # 数值计算
+
+# 可选: 训练相关
+# transformers>=4.36.0          # 模型训练
+# peft>=0.7.0                 # LoRA微调
+# datasets>=2.14.0            # 数据集管理
+# trl>=0.7.0                  # 强化学习训练
+
+# 测试和验证
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# 工具
+tqdm>=4.65.0                 # 进度条
+python-dotenv>=1.0.0         # 环境变量管理
